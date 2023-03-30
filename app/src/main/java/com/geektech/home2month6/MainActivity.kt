@@ -58,6 +58,7 @@ class MainActivity : BaseActicvity<ActivityMainBinding>(), UnselectedAdapter.Lis
         if (imageList.size >= 0) with(binding) {
             tvToolBar.text =
                 getString(R.string.selected) + " " + imageList.size + getString(R.string.photo)
+
         }
     }
 
